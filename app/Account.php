@@ -103,4 +103,6 @@ class Account extends Model
         return $this->belongsToMany('App\Account', 'vendor_customers', 'vendor_account_id', 'customer_account_id');
     }
 
+
+    //comment for comment
 }
